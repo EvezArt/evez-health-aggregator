@@ -6,10 +6,12 @@ import time
 app = FastAPI(title="EVEZ Health Aggregator", version="1.0.0")
 
 PORTS = {
-    8080: 'ClawBreak', 8081: 'VCL', 8082: 'Commerce', 8083: 'Guard',
-    8084: 'Mesh', 8085: 'HealthAgg', 8086: 'RevenueBridge',
-    8090: 'Spine', 8091: 'CriticalMind',
-    18789: 'OpenClaw Gateway'
+    8080: 'ClawBreak', 8081: 'Cognition', 8082: 'MAES', 8083: 'Bridge',
+    8875: 'Omega', 8876: 'Ledger', 8891: 'Factory', 8892: 'Research',
+    8893: 'Mesh', 8894: 'MeshBroker', 8896: 'Psyche', 8898: 'DigitalTwin',
+    8900: 'Livestream', 8904: 'Commerce', 8905: 'Search', 8906: 'Cloud',
+    8907: 'Guard', 8908: 'ThreatHunter', 8909: 'Federation', 8910: 'Profit',
+    8911: 'Observatory', 8913: 'SongDecon', 8914: 'MemeEngine', 8950: 'Manifold'
 }
 
 def check_port(port):
